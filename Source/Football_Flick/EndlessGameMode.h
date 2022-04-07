@@ -25,6 +25,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 Difficulty;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 DifficultyFloor;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 Score;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 HighScore;
@@ -42,6 +44,8 @@ public:
 		int32 GetFootballsLeft();
 	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetDifficulty")
 		int32 GetDifficulty();
+	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetDifficultyFloor")
+		int32 GetDifficultyFloor();
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "IncrementScore")
 		int32 IncrementScore(int32 newScore);
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetScore")
@@ -52,6 +56,8 @@ public:
 		void SetFootballsLeft(int32 newBalls);
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetDifficulty")
 		void SetDifficulty(int32 newDifficulty);
+	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetDifficultyFloor")
+		void SetDifficultyFloor(int32 newDifficultyFloor);
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetSpawnPoints")
 		void SetSpawnPoints(const TArray<AActor*>& newSpawnPoints);
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "PauseGame")

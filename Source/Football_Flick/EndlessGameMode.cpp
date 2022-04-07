@@ -9,6 +9,7 @@
 AEndlessGameMode::AEndlessGameMode() :
 	FootballsLeft(3),
 	Difficulty(1),
+	DifficultyFloor(0),
 	Score(0),
 	HighScore(0)
 {
@@ -57,6 +58,11 @@ int32 AEndlessGameMode::GetDifficulty()
 	return Difficulty;
 }
 
+int32 AEndlessGameMode::GetDifficultyFloor()
+{
+	return DifficultyFloor;
+}
+
 int32 AEndlessGameMode::IncrementScore(int32 newScore)
 {
 	return Score + newScore;
@@ -80,6 +86,11 @@ void AEndlessGameMode::SetFootballsLeft(int32 newBalls)
 void AEndlessGameMode::SetDifficulty(int32 newDifficulty)
 {
 	Difficulty = newDifficulty;
+}
+
+void AEndlessGameMode::SetDifficultyFloor(int32 newDifficultyFloor)
+{
+	DifficultyFloor = newDifficultyFloor;
 }
 
 void AEndlessGameMode::SetSpawnPoints(const TArray<AActor*>& newSpawnPoints)

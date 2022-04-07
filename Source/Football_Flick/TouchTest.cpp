@@ -172,7 +172,7 @@ void UTouchTest::FlingBallFromDragVector(float Angle, float size)
 	//setting sim physics to true and pushing the ball off of the arrows forward vector
 	MeshComponenet->SetSimulatePhysics(true);
 	float power = MyCurvePower->GetFloatValue(size);
-	MeshComponenet->AddImpulse(Point->GetForwardVector() * 6500);
+	MeshComponenet->AddImpulse(Point->GetForwardVector() * power);
 
 }
 

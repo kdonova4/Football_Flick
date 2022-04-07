@@ -9,6 +9,7 @@ AEndlessGameState::AEndlessGameState() :
 
 }
 
+
 int32 AEndlessGameState::GetWind()
 {
 	return Wind;
