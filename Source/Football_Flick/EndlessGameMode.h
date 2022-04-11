@@ -34,8 +34,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<AActor*> SpawnPoints;
 	
+
+
 	UFUNCTION(BlueprintCallable, Category="GameFuctions", DisplayName="EndGame")
-		void EndGame();
+		virtual void EndGame();
 	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetScore")
 		int32 GetScore();
 	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetHighScore")
