@@ -5,10 +5,16 @@
 #include "Kismet/GameplayStatics.h"
 #include "AccuracyGameState.h"
 
-AAccuracyGameMode::AAccuracyGameMode()
+AAccuracyGameMode::AAccuracyGameMode() :
+	FootballsLeft(20),
+	Accuracy(0),
+	RecordAccuracy(0),
+	Difficulty(1),
+	DIfficultyFloor(0),
+	TotalAccuracy(0)
 {
 
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Blueprints/DefaultPawn_BP"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Blueprints/AccuracyPawn"));
 	{
 		if (PlayerPawnBPClass.Class != NULL)
 		{
@@ -30,6 +36,11 @@ int32 AAccuracyGameMode::GetAccuracy()
 	return Accuracy;
 }
 
+int32 AAccuracyGameMode::GetTotalAccuracy()
+{
+	return TotalAccuracy;
+}
+
 void AAccuracyGameMode::SetAccuracy(int32 newAccuracy)
 {
 	Accuracy = newAccuracy;
@@ -39,6 +50,14 @@ int32 AAccuracyGameMode::GetFootballsLeft()
 {
 	return FootballsLeft;
 }
+
+int32 AAccuracyGameMode::SetTotalAccuracy(int32 newTotalAccuracy)
+{
+	TotalAccuracy = newTotalAccuracy;
+	return TotalAccuracy;
+}
+
+
 
 void AAccuracyGameMode::SetFootballsLeft(int32 newFootballs)
 {
@@ -73,4 +92,14 @@ int32 AAccuracyGameMode::GetRecordAccuracy()
 void AAccuracyGameMode::SetRecordAccuracy(int32 newRecord)
 {
 	RecordAccuracy = newRecord;
+}
+
+void AAccuracyGameMode::PauseGame()
+{
+	PC->SetPause(true);
+}
+
+void AAccuracyGameMode::UnpauseGame()
+{
+	PC->SetPause(false);
 }
