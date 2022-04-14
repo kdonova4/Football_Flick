@@ -56,7 +56,7 @@ public:
 	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetRecordAccuracy")
 		int32 GetRecordAccuracy();
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetRecordAccuracy")
-		void SetRecordAccuracy(int32 newRecord);
+		int32 SetRecordAccuracy(int32 newRecord);
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "PauseGame")
 		void PauseGame();
 	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "UnpauseGame")

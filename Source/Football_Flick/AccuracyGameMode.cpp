@@ -89,9 +89,10 @@ int32 AAccuracyGameMode::GetRecordAccuracy()
 	return RecordAccuracy;
 }
 
-void AAccuracyGameMode::SetRecordAccuracy(int32 newRecord)
+int32 AAccuracyGameMode::SetRecordAccuracy(int32 newRecord)
 {
 	RecordAccuracy = newRecord;
+	return RecordAccuracy;
 }
 
 void AAccuracyGameMode::PauseGame()
