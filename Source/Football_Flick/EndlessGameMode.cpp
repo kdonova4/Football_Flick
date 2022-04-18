@@ -107,3 +107,13 @@ void AEndlessGameMode::UnpauseGame()
 {
 	PC->SetPause(false);
 }
+
+void AEndlessGameMode::SetPractice(bool bnewBool)
+{
+	bPractice = bnewBool;
+}
+
+bool AEndlessGameMode::GetPractice()
+{
+	return bPractice;
+}

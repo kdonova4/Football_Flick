@@ -19,6 +19,8 @@ public:
 	AEndlessGameMode();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	APlayerController* PC;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bPractice = false;
 	//StartGame Conditions
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 FootballsLeft;
@@ -35,7 +37,10 @@ public:
 	TArray<AActor*> SpawnPoints;
 	
 
-
+	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetPractice")
+		bool GetPractice();
+	UFUNCTION(BlueprintCallable, Category = "GameFuctions", DisplayName = "SetPractice")
+		void SetPractice(bool bnewBool);
 	UFUNCTION(BlueprintCallable, Category="GameFuctions", DisplayName="EndGame")
 		virtual void EndGame();
 	UFUNCTION(BlueprintPure, Category = "GameFuctions", DisplayName = "GetScore")
