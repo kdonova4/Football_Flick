@@ -154,14 +154,14 @@
 "../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 153
 "../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 154
 "../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 155
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 156
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 157
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 158
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 159
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 160
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 161
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 162
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 163
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 156
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 157
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 158
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 159
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 160
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 161
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 162
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 163
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 164
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 165
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 166
@@ -169,11 +169,11 @@
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 168
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 169
 "../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 170
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 171
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 172
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 171
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 172
 "../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 173
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 174
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 175
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 174
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 175
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 176
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 177
 "../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 178
@@ -184,53 +184,93 @@
 "../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 183
 "../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 184
 "../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 185
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 186
-"../../../Engine/Content/BasicShapes/Plane.uasset" 187
-"../../../../../../UE4 Projects/Football_Flick/Content/PaddingBlue.uasset" 188
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/G8tveuM.uasset" 189
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/G8tveuM_Mat.uasset" 190
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 191
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 192
-"../../../../../../UE4 Projects/Football_Flick/Content/AccuracyMap_BuiltData.uasset" 193
-"../../../Engine/Content/BasicShapes/Cube.uasset" 194
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/YardLine_BP.uasset" 195
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/HighestAccuracySave.uasset" 196
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 197
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/NewUserDefinedStruct.uasset" 198
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/polySurface17_PolyPipe_1Mat.uasset" 199
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/fb_low.uasset" 200
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/KickAngle.uasset" 201
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/KickPower.uasset" 202
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/ScoreSave.uasset" 203
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI_GameOver.uasset" 204
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/DefaultPawn_BP.uasset" 205
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI_Pause.uasset" 206
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI.uasset" 207
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-circle-96.uasset" 208
-"../../Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 209
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-circle-96_Sprite.uasset" 210
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/GoodMark.uasset" 211
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-xbox-x-100.uasset" 212
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-xbox-x-100_Sprite.uasset" 213
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/NoGoodMark.uasset" 214
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/FG_GoodTrigger_BP.uasset" 215
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football_Blueprint.uasset" 216
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyFootball_Blueprint.uasset" 217
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI_GameOver.uasset" 218
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyPawn.uasset" 219
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI_Pause.uasset" 220
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI.uasset" 221
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyTrigger_BP.uasset" 222
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 223
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 224
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 225
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 226
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 227
-"../../../../../../UE4 Projects/Football_Flick/Content/AccuracyMap.umap" 228
-"../../../../../../UE4 Projects/Football_Flick/Content/TestMap_BuiltData.uasset" 229
-"../../../../../../UE4 Projects/Football_Flick/Content/TestMap.umap" 230
-"../../../../../../UE4 Projects/Football_Flick/Content/Menu_BuiltData.uasset" 231
-"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/MainMenu.uasset" 232
-"../../../../../../UE4 Projects/Football_Flick/Content/Menu.umap" 233
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 234
-"../../../Engine/Content/Maps/Entry.umap" 235
+"../../../Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset" 186
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 187
+"../../../Engine/Content/BasicShapes/Plane.uasset" 188
+"../../../Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset" 189
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/T_DitherPatterns.uasset" 190
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.uasset" 191
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/MF_YUVtoRGB.uasset" 192
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/MF_RGBtoYUV.uasset" 193
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/MF_PosteriseColor.uasset" 194
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.uasset" 195
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/RaiseBlackLevelsByPercentage.uasset" 196
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/MF_DitherHacky.uasset" 197
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/MF_DitherAccurateBayer.uasset" 198
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PP_RetroMain.uasset" 199
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PPI_YUV+AcBayer.uasset" 200
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/MPC_RetroShaders.uasset" 201
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/Surface/MF_VertexWobble.uasset" 202
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/Surface/MF_AffineTextureWarp.uasset" 203
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/Surface/M_EnvironmentMaster.uasset" 204
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/G8tveuM.uasset" 205
+"../../../../../../UE4 Projects/Football_Flick/Content/M_EnvironmentMaster_Inst.uasset" 206
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PP_ForceAO.uasset" 207
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 208
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PP_CheapFog.uasset" 209
+"../../../../../../UE4 Projects/Football_Flick/Content/PaddingBlue.uasset" 210
+"../../../../../../UE4 Projects/Football_Flick/Content/NewMaterial.uasset" 211
+"../../../../../../UE4 Projects/Football_Flick/Content/crowd-sports-fans-spectators-stadium.uasset" 212
+"../../../../../../UE4 Projects/Football_Flick/Content/crowd-sports-fans-spectators-stadium_Mat.uasset" 213
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 214
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 215
+"../../../../../../UE4 Projects/Football_Flick/Content/AccuracyMap_BuiltData.uasset" 216
+"../../../Engine/Content/BasicShapes/Cube.uasset" 217
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/YardLine_BP.uasset" 218
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/SHPinscher-Regular.uasset" 219
+"../../../../../../UE4 Projects/Football_Flick/Content/NewFont.uasset" 220
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/arrow_right.uasset" 221
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI_Pause.uasset" 222
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Practice.uasset" 223
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI.uasset" 224
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 225
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-circle-96.uasset" 226
+"../../Plugins/2D/Paper2D/Content/TranslucentUnlitSpriteMaterial.uasset" 227
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-circle-96_Sprite.uasset" 228
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/GoodMark.uasset" 229
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-xbox-x-100.uasset" 230
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/icons8-xbox-x-100_Sprite.uasset" 231
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/NoGoodMark.uasset" 232
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/ScoreSave.uasset" 233
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/FG_GoodTrigger_BP.uasset" 234
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/image.uasset" 235
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/image1.uasset" 236
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/NewUserDefinedStruct.uasset" 237
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/polySurface17_PolyPipe_1Mat.uasset" 238
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/fb_low.uasset" 239
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football_Blueprint.uasset" 240
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/KickAngle.uasset" 241
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/KickPower.uasset" 242
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/EndlessUI_GameOver.uasset" 243
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/DefaultPawn_BP.uasset" 244
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/T_RetroEditorBillboard.uasset" 245
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Data/SPostEffect.uasset" 246
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Data/EDitherMethods.uasset" 247
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PPI_YUV+DitherHacky.uasset" 248
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PPI_RGB+DitherHacky.uasset" 249
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/Materials/PostProcess/PPI_RGB+DitherAcBayer.uasset" 250
+"../../../../../../UE4 Projects/Football_Flick/Content/RetroShadersV4/RetroShader/BP_RetroPostProcess.uasset" 251
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/HighestAccuracySave.uasset" 252
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI_Pause.uasset" 253
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI.uasset" 254
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyUI_GameOver.uasset" 255
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyPawn.uasset" 256
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/fb_low_lambert2SG_BaseColorLOWPIXEL.uasset" 257
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/Football/fb_low_lambert2SG_BaseColorLOWPIXEL_Mat.uasset" 258
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyFootball_Blueprint.uasset" 259
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/GoalBox.uasset" 260
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/AccuracyTrigger_BP.uasset" 261
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 262
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 263
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 264
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 265
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 266
+"../../../../../../UE4 Projects/Football_Flick/Content/AccuracyMap.umap" 267
+"../../../../../../UE4 Projects/Football_Flick/Content/Menu_BuiltData.uasset" 268
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/MainMenu.uasset" 269
+"../../../../../../UE4 Projects/Football_Flick/Content/Menu.umap" 270
+"../../../../../../UE4 Projects/Football_Flick/Content/TestMap_BuiltData.uasset" 271
+"../../../../../../UE4 Projects/Football_Flick/Content/Blueprints/G8tveuM_Mat.uasset" 272
+"../../../../../../UE4 Projects/Football_Flick/Content/TestMap.umap" 273
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 274
+"../../../Engine/Content/Maps/Entry.umap" 275
