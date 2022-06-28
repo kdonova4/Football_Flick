@@ -262,10 +262,6 @@ void UTouchTest::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompo
 
 }
 
-void UTouchTest::SendBall()
-{
-
-}
 	
 	// if(!bFlung)
 	// {
